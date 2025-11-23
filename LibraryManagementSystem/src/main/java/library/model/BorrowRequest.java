@@ -3,6 +3,9 @@ package library.model;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+/**
+ * Borrow request model.
+ */
 public class BorrowRequest implements Serializable {
     private String studentUsername;
     private String bookId;
@@ -28,4 +31,10 @@ public class BorrowRequest implements Serializable {
     public void setApproved(boolean approved) { this.approved = approved; }
     public boolean isReturned() { return returned; }
     public void setReturned(boolean returned) { this.returned = returned; }
+
+    @Override
+    public String toString() {
+        return String.format("BorrowRequest{student='%s', book='%s', start=%s, end=%s, approved=%s, returned=%s}",
+                studentUsername, bookId, startDate, endDate, approved, returned);
+    }
 }
