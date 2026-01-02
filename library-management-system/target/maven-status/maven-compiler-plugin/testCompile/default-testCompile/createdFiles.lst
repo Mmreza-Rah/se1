@@ -1,0 +1,9 @@
+ir\university\library\service\BorrowServiceTest.class
+ir\university\library\service\ReportServiceTest.class
+ir\university\library\repository\BookRepositoryTest.class
+ir\university\library\service\AuthServiceTest.class
+ir\university\library\service\BookSearchTest.class
+ir\university\library\service\BookServiceTest.class
+ir\university\library\repository\BorrowRepositoryTest.class
+ir\university\library\service\BorrowManagementTest.class
+ir\university\library\repository\UserRepositoryTest.class
